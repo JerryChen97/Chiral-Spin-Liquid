@@ -1,0 +1,123 @@
+Starting:
+Reading 'Lx'=1 for config FermionicChiral
+Reading 'Ly'=8 for config FermionicChiral
+Reading 'cons_N'='N' for config FermionicChiral
+Reading 'cons_Sz'='Sz' for config FermionicChiral
+Reading 'bc'='periodic' for config FermionicChiral
+Reading 'bc_MPS'='infinite' for config FermionicChiral
+Reading 't'=1 for config FermionicChiral
+Reading 'td'=0.5j for config FermionicChiral
+Subconfig 'trunc_params'=Config(<3 options>, 'trunc_params') for config TwoSiteDMRGEngine
+Reading 'chi_list'={0: 100, 10: 1000} for config TwoSiteDMRGEngine
+Setting chi_max = 100
+Initial sweeps...
+Updating environment
+.
+Reading 'N_sweeps_check'=2 for config TwoSiteDMRGEngine
+Reading 'max_sweeps'=100 for config TwoSiteDMRGEngine
+Reading 'max_E_err'=1e-08 for config TwoSiteDMRGEngine
+Reading 'max_S_err'=1e-07 for config TwoSiteDMRGEngine
+Reading 'mixer'=True for config TwoSiteDMRGEngine
+Updating environment
+.
+================================================================================
+sweep 2, age = 144
+Energy = -1.9098929608917694, S = nan, norm_err = 6.0e-03
+Current memory usage 206.9 MB, time elapsed: 122.2 s
+Delta E = nan, Delta S = 0.0000e+00 (per sweep)
+max_trunc_err = 1.4095e-02, max_E_trunc = 7.0379e-02
+MPS bond dimensions: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+Updating environment
+.
+================================================================================
+sweep 4, age = 240
+Energy = -1.9436684354987257, S = nan, norm_err = 5.5e-03
+Current memory usage 206.9 MB, time elapsed: 193.7 s
+Delta E = -1.6888e-02, Delta S = 0.0000e+00 (per sweep)
+max_trunc_err = 1.8304e-02, max_E_trunc = 9.0342e-02
+MPS bond dimensions: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+Updating environment
+.
+================================================================================
+sweep 6, age = 336
+Energy = -1.9469760611572617, S = nan, norm_err = 1.8e-03
+Current memory usage 206.9 MB, time elapsed: 265.5 s
+Delta E = -1.6538e-03, Delta S = 0.0000e+00 (per sweep)
+max_trunc_err = 2.0353e-02, max_E_trunc = 9.7678e-02
+MPS bond dimensions: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+Updating environment
+.
+================================================================================
+sweep 8, age = 432
+Energy = -1.9469798913379606, S = nan, norm_err = 1.8e-03
+Current memory usage 206.9 MB, time elapsed: 337.7 s
+Delta E = -1.9151e-06, Delta S = 0.0000e+00 (per sweep)
+max_trunc_err = 2.0402e-02, max_E_trunc = 9.7884e-02
+MPS bond dimensions: [100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+Setting chi_max = 1000
+Updating environment
+.
+================================================================================
+sweep 10, age = 528
+Energy = -1.9470001838745112, S = nan, norm_err = 1.8e-03
+Current memory usage 3037.6 MB, time elapsed: 455.2 s
+Delta E = -1.0146e-05, Delta S = 0.0000e+00 (per sweep)
+max_trunc_err = 2.0393e-02, max_E_trunc = 9.7849e-02
+MPS bond dimensions: [1000, 1000, 100, 100, 100, 100, 100, 100, 100, 100, 100, 100, 101, 100, 100, 100]
+Updating environment
+.
+================================================================================
+sweep 12, age = 624
+Energy = -2.1597190683809160, S = nan, norm_err = 3.2e-04
+Current memory usage 3037.6 MB, time elapsed: 1053.5 s
+Delta E = -1.0636e-01, Delta S = 0.0000e+00 (per sweep)
+max_trunc_err = 3.8644e-03, max_E_trunc = 3.0150e-02
+MPS bond dimensions: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 14, age = 720
+Energy = -2.1597485091275459, S = nan, norm_err = 6.2e-04
+Current memory usage 3037.6 MB, time elapsed: 1651.3 s
+Delta E = -1.4720e-05, Delta S = 0.0000e+00 (per sweep)
+max_trunc_err = 3.8606e-03, max_E_trunc = 3.0115e-02
+MPS bond dimensions: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+disable mixer after 15 sweeps, final amplitude 3.05e-10
+Updating environment
+.
+================================================================================
+sweep 16, age = 816
+Energy = -2.1597462150371030, S = 4.3239186038197968, norm_err = 6.4e-04
+Current memory usage 3037.6 MB, time elapsed: 2130.9 s
+Delta E = 1.1470e-06, Delta S = nan (per sweep)
+max_trunc_err = 1.9291e-03, max_E_trunc = 3.0098e-02
+MPS bond dimensions: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 18, age = 912
+Energy = -2.1597459661233174, S = 4.3239252876207646, norm_err = 6.5e-04
+Current memory usage 3037.6 MB, time elapsed: 2552.9 s
+Delta E = 1.2446e-07, Delta S = 3.3419e-06 (per sweep)
+max_trunc_err = 1.9291e-03, max_E_trunc = 3.0099e-02
+MPS bond dimensions: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 20, age = 1008
+Energy = -2.1597459232900178, S = 4.3239253076110646, norm_err = 6.5e-04
+Current memory usage 3037.6 MB, time elapsed: 2973.6 s
+Delta E = 2.1417e-08, Delta S = 9.9952e-09 (per sweep)
+max_trunc_err = 1.9290e-03, max_E_trunc = 3.0099e-02
+MPS bond dimensions: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+norm_tol=1.00e-05 not reached, norm_err=6.46e-04
+Updating environment
+.
+/home/ychen2/anaconda3/lib/python3.7/site-packages/tenpy/algorithms/dmrg.py:408: UserWarning: final DMRG state not in canonical form within `norm_tol` = 1.00e-05
+  warnings.warn(msg.format(nt=norm_tol))
+================================================================================
+DMRG finished after 20 sweeps.
+total size = 1040, maximum chi = 1000
+================================================================================
+-2.159745923290018
+Complete.
