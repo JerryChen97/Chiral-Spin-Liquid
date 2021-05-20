@@ -1,0 +1,321 @@
+Starting:
+Reading 'Lx'=1 for config FermionicChiral
+Reading 'Ly'=4 for config FermionicChiral
+Reading 'cons_N'='N' for config FermionicChiral
+Reading 'cons_Sz'='Sz' for config FermionicChiral
+Reading 'bc'='periodic' for config FermionicChiral
+Reading 'bc_MPS'='infinite' for config FermionicChiral
+Reading 't'=1 for config FermionicChiral
+Reading 'td'=0.5j for config FermionicChiral
+Subconfig 'trunc_params'=Config(<3 options>, 'trunc_params') for config TwoSiteDMRGEngine
+Initial sweeps...
+Updating environment
+.
+Reading 'N_sweeps_check'=2 for config TwoSiteDMRGEngine
+Reading 'max_sweeps'=64 for config TwoSiteDMRGEngine
+Reading 'max_E_err'=1e-08 for config TwoSiteDMRGEngine
+Reading 'max_S_err'=1e-07 for config TwoSiteDMRGEngine
+Reading 'mixer'=True for config TwoSiteDMRGEngine
+Updating environment
+.
+================================================================================
+sweep 2, age = 72
+Energy = 27.9962292679803539, S = nan, norm_err = 1.7e-01
+Current memory usage 1422.5 MB, time elapsed: 222.7 s
+Delta E = nan, Delta S = 0.0000e+00 (per sweep)
+max_trunc_err = 1.0942e-03, max_E_trunc = 4.4758e+02
+MPS bond dimensions: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 4, age = 120
+Energy = 71.5644598024638015, S = nan, norm_err = 2.0e-02
+Current memory usage 1434.3 MB, time elapsed: 683.7 s
+Delta E = 2.1784e+01, Delta S = 0.0000e+00 (per sweep)
+max_trunc_err = 1.4294e-04, max_E_trunc = 1.1453e+03
+MPS bond dimensions: [1000, 1000, 996, 1000, 1000, 1000, 1000, 1000]
+Convergence criterium reached with enabled mixer.
+disable mixer and continue
+Updating environment
+.
+================================================================================
+sweep 6, age = 168
+Energy = 110.6299953392933446, S = 2.2309195398429829, norm_err = 3.9e-02
+Current memory usage 1434.3 MB, time elapsed: 1093.0 s
+Delta E = 1.9533e+01, Delta S = nan (per sweep)
+max_trunc_err = 2.3730e-05, max_E_trunc = 1.7701e+03
+MPS bond dimensions: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 8, age = 216
+Energy = 144.2348712461867706, S = 1.6243106735730193, norm_err = 8.1e-03
+Current memory usage 1434.3 MB, time elapsed: 1526.2 s
+Delta E = 1.6802e+01, Delta S = -3.0330e-01 (per sweep)
+max_trunc_err = 7.6808e-06, max_E_trunc = 2.3072e+03
+MPS bond dimensions: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 10, age = 264
+Energy = 179.3475968372679006, S = 1.8851980614665491, norm_err = 5.1e-03
+Current memory usage 1434.3 MB, time elapsed: 1930.4 s
+Delta E = 1.7556e+01, Delta S = 1.3044e-01 (per sweep)
+max_trunc_err = 2.3097e-06, max_E_trunc = 2.8687e+03
+MPS bond dimensions: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 12, age = 312
+Energy = 213.6273272616999748, S = 1.7930010451117118, norm_err = 3.5e-03
+Current memory usage 1434.3 MB, time elapsed: 2340.6 s
+Delta E = 1.7140e+01, Delta S = -4.6099e-02 (per sweep)
+max_trunc_err = 5.1667e-07, max_E_trunc = 3.4171e+03
+MPS bond dimensions: [1000, 996, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 14, age = 360
+Energy = 245.4723553910706357, S = 1.6370809913800164, norm_err = 2.6e-03
+Current memory usage 1434.3 MB, time elapsed: 2749.6 s
+Delta E = 1.5923e+01, Delta S = -7.7960e-02 (per sweep)
+max_trunc_err = 1.9069e-07, max_E_trunc = 3.9266e+03
+MPS bond dimensions: [1000, 985, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 16, age = 408
+Energy = 276.4271336311143159, S = 1.2228293095461564, norm_err = 4.6e-03
+Current memory usage 1434.3 MB, time elapsed: 3164.7 s
+Delta E = 1.5477e+01, Delta S = -2.0713e-01 (per sweep)
+max_trunc_err = 5.7241e-08, max_E_trunc = 4.4222e+03
+MPS bond dimensions: [998, 980, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 18, age = 456
+Energy = 304.5959075094355626, S = 0.8139028323331846, norm_err = 9.4e-03
+Current memory usage 1434.3 MB, time elapsed: 3571.0 s
+Delta E = 1.4084e+01, Delta S = -2.0446e-01 (per sweep)
+max_trunc_err = 9.2904e-09, max_E_trunc = 4.8730e+03
+MPS bond dimensions: [952, 950, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 20, age = 504
+Energy = 335.5331624322431026, S = 1.0180444205918280, norm_err = 1.2e-02
+Current memory usage 1434.3 MB, time elapsed: 3964.2 s
+Delta E = 1.5469e+01, Delta S = 1.0207e-01 (per sweep)
+max_trunc_err = 8.5123e-09, max_E_trunc = 5.3678e+03
+MPS bond dimensions: [975, 968, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 22, age = 552
+Energy = 373.4938908480772284, S = 1.1263691648471363, norm_err = 1.2e-02
+Current memory usage 1434.3 MB, time elapsed: 4355.2 s
+Delta E = 1.8980e+01, Delta S = 5.4162e-02 (per sweep)
+max_trunc_err = 1.1210e-08, max_E_trunc = 5.9752e+03
+MPS bond dimensions: [944, 969, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 24, age = 600
+Energy = 415.5317777312282601, S = 1.2604071449711358, norm_err = 7.2e-03
+Current memory usage 1434.3 MB, time elapsed: 4746.7 s
+Delta E = 2.1019e+01, Delta S = 6.7019e-02 (per sweep)
+max_trunc_err = 5.2045e-09, max_E_trunc = 6.6477e+03
+MPS bond dimensions: [938, 957, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 26, age = 648
+Energy = 462.1191253018985776, S = 1.3687322505204902, norm_err = 5.0e-03
+Current memory usage 1434.3 MB, time elapsed: 5129.9 s
+Delta E = 2.3294e+01, Delta S = 5.4163e-02 (per sweep)
+max_trunc_err = 3.9964e-09, max_E_trunc = 7.3930e+03
+MPS bond dimensions: [902, 949, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 28, age = 696
+Energy = 511.5361028563503396, S = 1.4209869168051683, norm_err = 8.8e-03
+Current memory usage 1434.3 MB, time elapsed: 5525.1 s
+Delta E = 2.4708e+01, Delta S = 2.6127e-02 (per sweep)
+max_trunc_err = 2.8299e-09, max_E_trunc = 8.1837e+03
+MPS bond dimensions: [868, 939, 1000, 1000, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 30, age = 744
+Energy = 561.5091563481859112, S = 1.3972863989815449, norm_err = 5.0e-03
+Current memory usage 1434.3 MB, time elapsed: 5895.8 s
+Delta E = 2.4987e+01, Delta S = -1.1850e-02 (per sweep)
+max_trunc_err = 1.3001e-09, max_E_trunc = 8.9834e+03
+MPS bond dimensions: [825, 885, 1000, 989, 1000, 1000, 1000, 1000]
+Updating environment
+.
+================================================================================
+sweep 32, age = 792
+Energy = 609.9313380302570522, S = 1.3420606742797687, norm_err = 4.5e-03
+Current memory usage 1434.3 MB, time elapsed: 6340.5 s
+Delta E = 2.4211e+01, Delta S = -2.7613e-02 (per sweep)
+max_trunc_err = 8.2815e-10, max_E_trunc = 9.7582e+03
+MPS bond dimensions: [755, 809, 994, 951, 997, 1000, 1000, 986]
+Updating environment
+.
+================================================================================
+sweep 34, age = 840
+Energy = 655.9114135878483012, S = 1.3085410999233758, norm_err = 3.1e-03
+Current memory usage 1434.3 MB, time elapsed: 6830.8 s
+Delta E = 2.2990e+01, Delta S = -1.6760e-02 (per sweep)
+max_trunc_err = 4.5561e-10, max_E_trunc = 1.0494e+04
+MPS bond dimensions: [733, 669, 951, 888, 986, 996, 1000, 952]
+Updating environment
+.
+================================================================================
+sweep 36, age = 888
+Energy = 698.9946021797272806, S = 1.2645271097467758, norm_err = 3.2e-03
+Current memory usage 1434.3 MB, time elapsed: 7292.5 s
+Delta E = 2.1542e+01, Delta S = -2.2007e-02 (per sweep)
+max_trunc_err = 3.3262e-10, max_E_trunc = 1.1183e+04
+MPS bond dimensions: [697, 631, 903, 842, 971, 981, 1000, 918]
+Updating environment
+.
+================================================================================
+sweep 38, age = 936
+Energy = 739.4460767334352340, S = 1.2199585959889629, norm_err = 3.6e-03
+Current memory usage 1434.3 MB, time elapsed: 7688.2 s
+Delta E = 2.0226e+01, Delta S = -2.2284e-02 (per sweep)
+max_trunc_err = 2.4801e-10, max_E_trunc = 1.1831e+04
+MPS bond dimensions: [664, 585, 833, 800, 925, 948, 994, 890]
+Updating environment
+.
+================================================================================
+sweep 40, age = 984
+Energy = 777.9284942251076700, S = 1.1836918864981083, norm_err = 2.3e-03
+Current memory usage 1434.3 MB, time elapsed: 8159.5 s
+Delta E = 1.9241e+01, Delta S = -1.8133e-02 (per sweep)
+max_trunc_err = 1.6840e-10, max_E_trunc = 1.2447e+04
+MPS bond dimensions: [635, 550, 775, 770, 886, 927, 990, 850]
+Updating environment
+.
+================================================================================
+sweep 42, age = 1032
+Energy = 814.4393954675417717, S = 1.0821613847228986, norm_err = 8.7e-03
+Current memory usage 1434.3 MB, time elapsed: 8557.9 s
+Delta E = 1.8255e+01, Delta S = -5.0765e-02 (per sweep)
+max_trunc_err = 1.0701e-10, max_E_trunc = 1.3031e+04
+MPS bond dimensions: [594, 496, 704, 702, 767, 859, 970, 796]
+Updating environment
+.
+================================================================================
+sweep 44, age = 1080
+Energy = 848.7461199014912836, S = 1.0080324292772456, norm_err = 9.0e-03
+Current memory usage 1434.3 MB, time elapsed: 8901.5 s
+Delta E = 1.7153e+01, Delta S = -3.7064e-02 (per sweep)
+max_trunc_err = 6.5315e-11, max_E_trunc = 1.3580e+04
+MPS bond dimensions: [589, 475, 671, 673, 721, 829, 937, 770]
+Updating environment
+.
+================================================================================
+sweep 46, age = 1128
+Energy = 881.3046472461751364, S = 1.0010230695362656, norm_err = 6.2e-03
+Current memory usage 1434.3 MB, time elapsed: 9223.4 s
+Delta E = 1.6279e+01, Delta S = -3.5047e-03 (per sweep)
+max_trunc_err = 4.1408e-11, max_E_trunc = 1.4101e+04
+MPS bond dimensions: [510, 422, 627, 607, 571, 690, 838, 661]
+Updating environment
+.
+================================================================================
+sweep 48, age = 1176
+Energy = 913.4087895919179800, S = 1.0046241869475070, norm_err = 5.7e-03
+Current memory usage 1434.3 MB, time elapsed: 9528.6 s
+Delta E = 1.6052e+01, Delta S = 1.8006e-03 (per sweep)
+max_trunc_err = 2.7011e-11, max_E_trunc = 1.4615e+04
+MPS bond dimensions: [493, 405, 624, 595, 558, 682, 819, 653]
+Updating environment
+.
+================================================================================
+sweep 50, age = 1224
+Energy = 945.4679219378388098, S = 1.0462037079754953, norm_err = 5.2e-03
+Current memory usage 1434.3 MB, time elapsed: 9825.9 s
+Delta E = 1.6030e+01, Delta S = 2.0790e-02 (per sweep)
+max_trunc_err = 2.1836e-11, max_E_trunc = 1.5128e+04
+MPS bond dimensions: [480, 412, 624, 592, 562, 670, 809, 630]
+Updating environment
+.
+================================================================================
+sweep 52, age = 1272
+Energy = 977.3594906617338438, S = 1.0569435794856612, norm_err = 3.7e-03
+Current memory usage 1434.3 MB, time elapsed: 10124.7 s
+Delta E = 1.5946e+01, Delta S = 5.3699e-03 (per sweep)
+max_trunc_err = 1.5576e-11, max_E_trunc = 1.5638e+04
+MPS bond dimensions: [465, 386, 629, 582, 560, 651, 788, 602]
+Updating environment
+.
+================================================================================
+sweep 54, age = 1320
+Energy = 1009.1167456820631969, S = 1.0961520265567681, norm_err = 5.8e-03
+Current memory usage 1434.3 MB, time elapsed: 10433.1 s
+Delta E = 1.5879e+01, Delta S = 1.9604e-02 (per sweep)
+max_trunc_err = 1.4228e-11, max_E_trunc = 1.6146e+04
+MPS bond dimensions: [467, 387, 635, 570, 552, 664, 783, 595]
+Updating environment
+.
+================================================================================
+sweep 56, age = 1368
+Energy = 1040.9000571750168547, S = 1.1234237821857689, norm_err = 5.1e-03
+Current memory usage 1434.3 MB, time elapsed: 10732.0 s
+Delta E = 1.5892e+01, Delta S = 1.3636e-02 (per sweep)
+max_trunc_err = 1.0973e-11, max_E_trunc = 1.6655e+04
+MPS bond dimensions: [453, 386, 633, 547, 540, 662, 770, 587]
+Updating environment
+.
+================================================================================
+sweep 58, age = 1416
+Energy = 1073.0195958880506168, S = 1.1390048555541838, norm_err = 3.4e-03
+Current memory usage 1434.3 MB, time elapsed: 11024.2 s
+Delta E = 1.6060e+01, Delta S = 7.7905e-03 (per sweep)
+max_trunc_err = 9.3899e-12, max_E_trunc = 1.7169e+04
+MPS bond dimensions: [446, 390, 640, 551, 548, 667, 767, 591]
+Updating environment
+.
+================================================================================
+sweep 60, age = 1464
+Energy = 1105.4549980921440238, S = 1.1766026197641826, norm_err = 2.7e-03
+Current memory usage 1434.3 MB, time elapsed: 11377.2 s
+Delta E = 1.6218e+01, Delta S = 1.8799e-02 (per sweep)
+max_trunc_err = 9.1356e-12, max_E_trunc = 1.7688e+04
+MPS bond dimensions: [436, 389, 642, 546, 539, 661, 770, 601]
+Updating environment
+.
+================================================================================
+sweep 62, age = 1512
+Energy = 1137.8602497315509936, S = 1.1649904430149751, norm_err = 2.2e-03
+Current memory usage 1434.3 MB, time elapsed: 11727.3 s
+Delta E = 1.6203e+01, Delta S = -5.8061e-03 (per sweep)
+max_trunc_err = 7.4312e-12, max_E_trunc = 1.8206e+04
+MPS bond dimensions: [422, 381, 634, 532, 522, 647, 747, 582]
+Updating environment
+.
+================================================================================
+sweep 64, age = 1560
+Energy = 1170.2271205840731909, S = 1.1735072327122980, norm_err = 4.4e-03
+Current memory usage 1434.3 MB, time elapsed: 12058.8 s
+Delta E = 1.6183e+01, Delta S = 4.2584e-03 (per sweep)
+max_trunc_err = 6.2224e-12, max_E_trunc = 1.8724e+04
+MPS bond dimensions: [406, 386, 622, 527, 513, 644, 724, 565]
+norm_tol=1.00e-05 not reached, norm_err=4.44e-03
+Updating environment
+.
+/home/ychen2/anaconda3/lib/python3.7/site-packages/tenpy/linalg/lanczos.py:250: UserWarning: Poorly conditioned Lanczos!
+  warnings.warn("Poorly conditioned Lanczos!")
+/home/ychen2/anaconda3/lib/python3.7/site-packages/tenpy/algorithms/dmrg.py:408: UserWarning: final DMRG state not in canonical form within `norm_tol` = 1.00e-05
+  warnings.warn(msg.format(nt=norm_tol))
+================================================================================
+DMRG finished after 64 sweeps.
+total size = 1576, maximum chi = 720
+================================================================================
+1170.2271205840732
+Complete.
